@@ -10,17 +10,14 @@ html {
 }
 
 header {
-    background-color: #ffffff;
-    justify-content: center;
-}
-
-.cabecalho {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 10vh;
+    background-color: #ffffff;
+    justify-content: center;
+    box-shadow: 1px 1px 1px #000000;
 }
-
 
 main {
     background-color: #f0f0f0;
