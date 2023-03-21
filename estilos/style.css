@@ -15,8 +15,8 @@ header {
     align-items: center;
     height: 10vh;
     background-color: #ffffff;
-    justify-content: center;
-    box-shadow: 1px 1px 1px #000000;
+    box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.1);
+    position: relative;
 }
 
 main {
@@ -33,9 +33,19 @@ main {
 
 .flex-itens {
     background-color: #ffffff;
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.208);
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #0000003e;
     width: 50vw;
     text-align: center;
+    flex-basis: 20%;
+    font-size: 0.9em;
+}
+
+.flex-itens:hover {
+    -xpedu-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);    
 }
 
 footer {
