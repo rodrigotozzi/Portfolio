@@ -37,9 +37,9 @@ main {
     border-radius: 10px;
     box-shadow: 1px 1px 1px #0000003e;
     width: 50vw;
-    text-align: center;
     flex-basis: 20%;
     font-size: 0.9em;
+    text-align: center;
 }
 
 .flex-itens:hover {
