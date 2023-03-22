@@ -29,6 +29,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    height: 80vh;
 }
 
 .flex-itens {
@@ -37,25 +38,33 @@ main {
     border-radius: 10px;
     box-shadow: 1px 1px 1px #0000003e;
     width: 50vw;
-    flex-basis: 20%;
     font-size: 0.9em;
     text-align: center;
+    width: 300px;
+    height: 100px;
+}
+
+.flex-itens > h2 {
+    padding-top: 20px;
+}
+
+.flex-itens > p {
+    padding-top: 15px;
 }
 
 .flex-itens:hover {
-    -xpedu-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);    
+    -xpedu-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);    
 }
 
 footer {
-    align-items: center;
-    justify-content: center;
-    align-self: center;
+    text-align: center;
     background-color: #000000;
     color: #ffffff;
-    font-size: 1.2em;
+    font-size: 1.0em;
     height: 10vh;
+    padding-top: 5px;
 }
 
 footer > p > a {
