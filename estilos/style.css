@@ -55,16 +55,16 @@ img {
     font-size: 0.9em;
     text-align: center;
     width: 300px;
-    height: 100px;
-    flex-basis: 20%;
+    height: 175px;
+    flex-basis: 40%;
 }
 
 .flex-itens > h2 {
-    padding-top: 0px;
+    padding-top: 20px;
 }
 
 .flex-itens > p {
-    padding-top: 0px;
+    padding-top: 10px;
 }
 
 .flex-itens:hover {
