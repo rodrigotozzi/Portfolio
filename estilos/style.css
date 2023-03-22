@@ -70,7 +70,12 @@ img {
 .flex-itens:hover {
     -xpedu-transform: scale(1.1);
     -ms-transform: scale(1.1);
-    transform: scale(1.1);    
+    transform: scale(1.1);
+    cursor: default;
+}
+
+.f-4 > p > a {
+    text-decoration: none;
 }
 
 footer {
@@ -88,5 +93,5 @@ footer > p > a {
 }
 
 footer > p > a:hover {
-    color: #0000ff;
+    font-weight: bolder;
 }
