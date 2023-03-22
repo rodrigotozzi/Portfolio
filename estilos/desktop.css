@@ -21,20 +21,23 @@
         border-radius: 50%;
     }
 
-    .flex-container {
+    .flex-container-1 {
         display: flex;
-      
-    }
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 30vh;
 
-    .flex-itens {
-        height: 150px;
-        
     }
 
     .flex-container-2 {
         display: flex;
-        flex-direction: column;
-        
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 25vh;
     }
 
+    .flex-itens {
+        height: 100px;
+        width: 500px;
+    }
 }
