@@ -23,7 +23,6 @@ header {
 
 main {
     background-color: #f0f0f0;
-    height: 80vh;
 }
 
 article > h1 {
@@ -62,7 +61,6 @@ footer {
     background-color: #000000;
     color: #ffffff;
     font-size: 1.0em;
-    height: 8.4vh;
     padding-top: 10px;
 }
 
