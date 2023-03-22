@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/* Mobile First */
+
 * {
     margin: 0px;
     padding: 0px;
@@ -24,12 +26,24 @@ main {
     height: 80vh;
 }
 
-.flex-container {
+img {
+    display: none;
+}
+
+.flex-container-1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
-    height: 80vh;
+    justify-content: space-around;
+    height: 40vh;
+}
+
+.flex-container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 40vh;
 }
 
 .flex-itens {
@@ -46,11 +60,11 @@ main {
 }
 
 .flex-itens > h2 {
-    padding-top: 20px;
+    padding-top: 0px;
 }
 
 .flex-itens > p {
-    padding-top: 15px;
+    padding-top: 0px;
 }
 
 .flex-itens:hover {
@@ -65,7 +79,7 @@ footer {
     color: #ffffff;
     font-size: 1.0em;
     height: 10vh;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
 footer > p > a {

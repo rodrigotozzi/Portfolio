@@ -1,6 +1,40 @@
 @charset "UTF-8";
 
+/* Telas Maiores */
+
 @media screen and (min-width: 769px) {
 
+    main {
+        height: 80vh;
+    }
+
+    .flex-container-imagem {
+        display: flex;
+        justify-content: center;
+    }
+
+    img {
+        display: block;
+        padding-top: 10px;
+        height: 125px;
+        size: 125px;
+        border-radius: 50%;
+    }
+
+    .flex-container {
+        display: flex;
+      
+    }
+
+    .flex-itens {
+        height: 150px;
+        
+    }
+
+    .flex-container-2 {
+        display: flex;
+        flex-direction: column;
+        
+    }
 
 }
