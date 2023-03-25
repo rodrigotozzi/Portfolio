@@ -63,6 +63,18 @@ section > p > a:hover {
     font-weight: bolder;
 }
 
+nav {
+    padding: 5px 0px 10px 10px;
+}
+
+nav > a {
+    text-decoration: none;
+}
+
+nav > a:hover {
+    font-weight: bolder;
+}
+
 footer {
     text-align: center;
     background-color: #000000;
