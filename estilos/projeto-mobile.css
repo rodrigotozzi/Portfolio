@@ -49,7 +49,7 @@ section > p {
 
 .iframe {
     width: 95vw;
-    height: 50vh;
+    height: 60vh;
     border: 1px solid black;
     box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.1);
     border-radius: 10px;
