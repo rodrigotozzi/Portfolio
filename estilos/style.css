@@ -15,7 +15,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10vh;
+    height: 50px;
     background-color: #ffffff;
     box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.1);
     position: relative;
@@ -23,7 +23,7 @@ header {
 
 main {
     background-color: #f0f0f0;
-    height: 80vh;
+    
 }
 
 img {
@@ -35,7 +35,7 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 40vh;
+    height: 200px;
 }
 
 .flex-container-2 {
@@ -43,7 +43,7 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 40vh;
+    height: 200px;
 }
 
 .flex-itens {
@@ -83,7 +83,7 @@ footer {
     background-color: #000000;
     color: #ffffff;
     font-size: 1.0em;
-    height: 8.4vh;
+    height: 72px;
     padding-top: 10px;
 }
 
