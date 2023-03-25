@@ -21,7 +21,7 @@ header {
     position: relative;
 }
 
-article {
+section {
     background-color: #f0f0f0;
     border: 1px solid black;
     border-radius: 10px;
@@ -32,11 +32,11 @@ article {
     margin-bottom: 10px;
 }
 
-article > h1 {
+section > h1 {
     padding: 20px 0px 0px 10px;    
 }
 
-article > p {
+section > p {
     padding: 15px 0px 15px 10px;
     width: 95vw;
     text-align: justify; 
@@ -55,11 +55,11 @@ article > p {
     border-radius: 10px;
 }
 
-article > p > a {
+section > p > a {
     text-decoration: none;
 }
 
-article > p > a:hover {
+section > p > a:hover {
     font-weight: bolder;
 }
 
