@@ -6,6 +6,7 @@
 
     main {
         height: 80vh;
+        padding-top: 0;
     }
 
     .flex-container-imagem {

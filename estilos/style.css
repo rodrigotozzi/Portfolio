@@ -23,7 +23,8 @@ header {
 
 main {
     background-color: #f0f0f0;
-    
+    height: 450px;
+    padding-top: 50px;
 }
 
 img {
@@ -64,7 +65,7 @@ img {
 }
 
 .flex-itens > p {
-    padding-top: 10px;
+    padding: 10px 10px 0px 10px;  
 }
 
 .flex-itens:hover {
