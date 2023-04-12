@@ -26,7 +26,7 @@ section {
     border: 1px solid black;
     border-radius: 10px;
     box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.1);
-    width: 98vw;
+    width: 95vw;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -38,7 +38,7 @@ section > h1 {
 
 section > p {
     padding: 15px 15px 15px 10px;
-    width: 95vw;
+    width: 93vw;
     text-align: justify; 
 }
 
@@ -48,7 +48,7 @@ section > p {
 }
 
 .iframe {
-    width: 95vw;
+    width: 93vw;
     height: 80vh;
     border: 1px solid black;
     box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.1);
@@ -64,16 +64,41 @@ section > p > a:hover {
 }
 
 nav {
-    padding: 5px 0px 10px 10px;
+    display: grid;
+    place-items: center;
+
+    background-color: #f0f0f0;
+
+    border: 1px solid black;
+    box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.1);
+    border-radius: 2.5px;
+
+    width: 150px;
+    height: 25px;
+
+    margin-left: 25px;
+    margin-bottom: 10px;
 }
 
 nav > a {
+    color: #000000;
     text-decoration: none;
 }
 
 nav > a:hover {
+    -xpedu-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: default;
+    transition: 0.5s;
     font-weight: bolder;
+    cursor: pointer;
 }
+
+.itens:hover {
+
+}
+
 
 footer {
     display: grid;
