@@ -76,11 +76,12 @@ nav > a:hover {
 }
 
 footer {
-    text-align: center;
+    display: grid;
+    height: 60px;
+    place-items: center;
     background-color: #000000;
     color: #ffffff;
     font-size: 1.0em;
-    padding-top: 10px;
 }
 
 footer > p > a {

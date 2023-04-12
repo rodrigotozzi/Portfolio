@@ -22,12 +22,12 @@
         border-radius: 50%;
     }
 
-    .flex-container-imagem {
+    .container-imagem {
         display: flex;
         justify-content: center;
     }
 
-    .flex-container-1 {
+    .container-1 {
         display: grid;
         flex-direction: row;
         justify-content: space-evenly;
@@ -37,7 +37,7 @@
         gap: 50px;
     }
 
-    .flex-itens {
+    .itens {
         height: 100px;
         width: 500px;
     }
