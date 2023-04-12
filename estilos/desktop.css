@@ -5,8 +5,7 @@
 @media screen and (min-width: 769px) {
 
     html {
-        width: 98.7vw;
-        height: 100vh;
+        width: 100vw;
     }
     
     header {
@@ -20,17 +19,17 @@
         height: 160px;
         size: 160px;
         border-radius: 50%;
+        padding: 10px;
     }
-
+    
     .container-imagem {
         display: flex;
         justify-content: center;
     }
 
-    .container-1 {
+    .container {
         display: grid;
-        flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-around;
         grid-template-areas:  
           'f-1 f-2'
           'f-3 f-4';
@@ -62,5 +61,6 @@
         display: grid;
         place-items: center;
         padding: 5px;
+
     }
 }
