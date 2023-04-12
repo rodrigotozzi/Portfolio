@@ -78,6 +78,7 @@ img {
     -ms-transform: scale(1.1);
     transform: scale(1.1);
     cursor: default;
+    transition: 0.5s;
 }
 
 .f-4 > p > a {

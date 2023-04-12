@@ -4,9 +4,22 @@
 
 @media screen and (min-width: 769px) {
 
-    main {
-        height: 80vh;
-        padding-top: 0;
+    html {
+        width: 98.7vw;
+        height: 100vh;
+    }
+    
+    header {
+        height: 75px;
+        font-size: 1.5em;
+        letter-spacing: 0.3em;
+    }
+
+    img {
+        display: block;
+        height: 160px;
+        size: 160px;
+        border-radius: 50%;
     }
 
     .flex-container-imagem {
@@ -14,34 +27,40 @@
         justify-content: center;
     }
 
-    img {
-        display: block;
-        margin-top: 20px;
-        height: 160px;
-        size: 160px;
-        border-radius: 50%;
-    }
-
     .flex-container-1 {
-        display: flex;
+        display: grid;
         flex-direction: row;
         justify-content: space-evenly;
-        height: 27vh;
-        padding: 0;
-        gap: 0;
-    }
-
-    .flex-container-2 {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        height: 27vh;
-        padding: 0;
-        gap: 0;
+        grid-template-areas:  
+          'f-1 f-2'
+          'f-3 f-4';
+        gap: 50px;
     }
 
     .flex-itens {
         height: 100px;
         width: 500px;
+    }
+
+    #f1 {
+        grid-area: 'f-1';
+    }
+
+    #f-2 {
+        grid-area: 'f-2';
+    }
+
+    #f-3 {
+        grid-area: 'f-3';
+    }
+
+    #f-4 {
+        grid-area: 'f-4';
+    }
+
+    footer {
+        display: grid;
+        place-items: center;
+        padding: 5px;
     }
 }
