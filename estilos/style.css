@@ -1,15 +1,22 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'lato';
+    src: url(../fontes/Lato-Regular.ttf) format('truetype');
+}
+
 /* Mobile First */
+
+:root {
+    --cor-fundo: #f0f0f0;
+    --cor-fundo-header: #ffffff;
+    --fonte-destaque: 'lato', sans-serif;
+    --fonte-corpo: Arial, Helvetica, sans-serif;
+}
 
 * {
     margin: 0px;
     padding: 0px;
-}
-
-html {
-    width: 100vw;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -17,14 +24,16 @@ header {
     justify-content: center;
     align-items: center;
     height: 50px;
-    background-color: #ffffff;
+    background-color: var(--cor-fundo-header);
     box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.1);
     position: relative;
     font-size: 1em;
+    letter-spacing: 0.2em;
+    font-family: var(--fonte-destaque);
 }
 
 main {
-    background-color: #f0f0f0;
+    background-color: var(--cor-fundo);
 }
 
 img {
@@ -53,10 +62,12 @@ img {
 
 .itens > h2 {
     padding-top: 22.5px;
+    font-family: var(--fonte-corpo);
 }
 
 .itens > p {
-    padding: 10px 10px 0px 10px;  
+    padding: 10px 10px 0px 10px;
+    font-family: var(--fonte-corpo);
 }
 
 .itens:hover {
@@ -80,8 +91,9 @@ footer {
     height: 60px;
     background-color: #000000;
     color: #ffffff;
-    font-size: 1.0em;
+    font-size: 0.9em;
     letter-spacing: 0.1em;
+    font-family: var(--fonte-corpo);
 }
 
 footer > p > a {

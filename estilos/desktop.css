@@ -8,8 +8,7 @@
 /* Telas Maiores */
 
 @media screen and (min-width: 769px) {
-
-
+    
     main {
         height: 79.5vh;
     }
