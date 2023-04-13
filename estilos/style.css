@@ -72,12 +72,16 @@ img {
 }
 
 footer {
-    display: grid;
-    place-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
     height: 60px;
     background-color: #000000;
     color: #ffffff;
     font-size: 1.0em;
+    letter-spacing: 0.1em;
 }
 
 footer > p > a {

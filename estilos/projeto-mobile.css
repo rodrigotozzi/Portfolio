@@ -66,16 +66,12 @@ section > p > a:hover {
 nav {
     display: grid;
     place-items: center;
-
     background-color: #f0f0f0;
-
     border: 1px solid black;
     box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.1);
     border-radius: 2.5px;
-
     width: 150px;
     height: 25px;
-
     margin-left: 25px;
     margin-bottom: 10px;
 }
@@ -85,28 +81,27 @@ nav > a {
     text-decoration: none;
 }
 
-nav > a:hover {
+nav:hover {
     -xpedu-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
-    cursor: default;
+    cursor: pointer;
     transition: 0.5s;
     font-weight: bolder;
     cursor: pointer;
 }
 
-.itens:hover {
-
-}
-
-
 footer {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
     height: 60px;
-    place-items: center;
     background-color: #000000;
     color: #ffffff;
     font-size: 1.0em;
+    letter-spacing: 0.1em;
 }
 
 footer > p > a {

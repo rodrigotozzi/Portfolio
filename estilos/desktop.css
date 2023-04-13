@@ -1,13 +1,19 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'lato';
+    src: url(../fontes/Lato-Regular.ttf) format('truetype');
+}
+
 /* Telas Maiores */
 
 @media screen and (min-width: 769px) {
 
-    html {
-        width: 100vw;
+
+    main {
+        height: 79.5vh;
     }
-    
+
     header {
         height: 75px;
         font-size: 1.5em;
@@ -33,7 +39,7 @@
         grid-template-areas:  
           'f-1 f-2'
           'f-3 f-4';
-        gap: 50px;
+        gap: 80px;
     }
 
     .itens {
@@ -58,9 +64,15 @@
     }
 
     footer {
-        display: grid;
-        place-items: center;
-        padding: 5px;
-
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2.5px;
+        height: 60px;
+        background-color: #000000;
+        color: #ffffff;
+        font-size: 1.0em;
+        letter-spacing: 0.1em;
     }
 }
