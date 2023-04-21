@@ -9,10 +9,6 @@
 
 @media screen and (min-width: 769px) {
     
-    main {
-        height: 79.5vh;
-    }
-
     header {
         height: 75px;
         font-size: 1.5em;
@@ -38,7 +34,8 @@
         grid-template-areas:  
           'f-1 f-2'
           'f-3 f-4';
-        gap: 80px;
+        gap: 50px;
+        height: 50vh;
     }
 
     .itens {
